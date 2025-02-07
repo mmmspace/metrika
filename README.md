@@ -20,8 +20,8 @@ A Python script for downloading raw logs data from Yandex Metrika using their Lo
 ## Installation
 
 ```bash
-git clone <repository-url>
-cd yandex-metrika-logs
+git clone https://github.com/mmmspace/metrika.git
+cd metrika
 ```
 
 ## Usage
@@ -80,13 +80,6 @@ data/visits_2024-03-01_to_2024-03-02.csv
 2. Add required Metrika permissions
 3. Generate OAuth token
 4. Use token in requests as shown in examples
-
-## Future Plans
-
-- [ ] Add support for hits data
-- [ ] Add field selection options
-- [ ] Add data validation
-- [ ] Add retry logic for failed requests
 
 ## License
 
