@@ -1,4 +1,4 @@
-from setuptools import setup, find_packages
+from setuptools import setup
 
 setup(
     name="yandex_metrika_logs",
@@ -8,7 +8,7 @@ setup(
     long_description_content_type="text/markdown",
     author="Nick Toverovskiy",
     url="https://github.com/mmmspace/metrika",
-    packages=find_packages(),
+    py_modules=['yandex_metrika_logs_api'],  # Use py_modules for single file
     install_requires=[],  # no external dependencies currently
     python_requires=">=3.6",
-) 
+)
