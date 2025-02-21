@@ -1,7 +1,7 @@
 from setuptools import setup, find_packages
 
 setup(
-    name="yandex-metrika-logs",
+    name="yandex_metrika_logs",
     version="0.1.0",
     description="Yandex Metrika Logs API Downloader",
     long_description=open("README.md").read(),
